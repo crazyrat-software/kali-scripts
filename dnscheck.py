@@ -10,7 +10,7 @@ my_resolver = dns.resolver.Resolver()
 def check(ip):
 	try:
 		my_resolver.nameservers = [ip]
-		answer = my_resolver.resolve('crazyrat.pl')
+		answer = my_resolver.resolve('google.com')
 	except:
 		print("[-] [",ip,"]:",Fore.GREEN,"OK")
 	else:

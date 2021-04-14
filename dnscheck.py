@@ -4,9 +4,7 @@ from colorama import Fore, Style
 import csv
 
 print("[*] Initiating...")
-
 my_resolver = dns.resolver.Resolver()
-
 
 def check(ip):
 	try:

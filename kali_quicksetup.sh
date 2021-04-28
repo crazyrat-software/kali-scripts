@@ -52,3 +52,14 @@ echo "[-] spraying tookit"
 cd /opt
 git clone https://github.com/byt3bl33d3r/SprayingToolkit && cd /opt/SprayingToolkit
 pip3 install -r requirements.txt
+
+echo "[-] Profil3r"
+cd /opt
+git clone https://github.com/Rog3rSm1th/Profil3r.git && cd /opt/Profil3r
+python3 setup.py install
+
+
+echo "[-] sherlock"
+cd /opt
+git clone https://github.com/sherlock-project/sherlock.git && /opt/sherlock
+python3 -m pip install -r requirements.txt
